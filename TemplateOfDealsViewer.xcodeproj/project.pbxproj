@@ -18,6 +18,7 @@
 		151E706F2941FC75000F9ED0 /* DealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E706E2941FC75000F9ED0 /* DealCell.swift */; };
 		155E2E082942CF470094E5DA /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 155E2E062942CF470094E5DA /* HeaderCell.xib */; };
 		155E2E092942CF470094E5DA /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E2E072942CF470094E5DA /* HeaderCell.swift */; };
+		2D8BDD0E29572E030025639C /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8BDD0D29572E030025639C /* FiltersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		151E706E2941FC75000F9ED0 /* DealCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealCell.swift; sourceTree = "<group>"; };
 		155E2E062942CF470094E5DA /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
 		155E2E072942CF470094E5DA /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		2D8BDD0D29572E030025639C /* FiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				151E70562940D970000F9ED0 /* AppDelegate.swift */,
 				151E70582940D970000F9ED0 /* SceneDelegate.swift */,
 				151E705A2940D970000F9ED0 /* ViewController.swift */,
+				2D8BDD0D29572E030025639C /* FiltersViewController.swift */,
 				151E705C2940D970000F9ED0 /* Main.storyboard */,
 				151E705F2940D971000F9ED0 /* Assets.xcassets */,
 				151E70612940D971000F9ED0 /* LaunchScreen.storyboard */,
@@ -161,6 +164,7 @@
 				151E70572940D970000F9ED0 /* AppDelegate.swift in Sources */,
 				151E706B2940D98C000F9ED0 /* Server.swift in Sources */,
 				151E70592940D970000F9ED0 /* SceneDelegate.swift in Sources */,
+				2D8BDD0E29572E030025639C /* FiltersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

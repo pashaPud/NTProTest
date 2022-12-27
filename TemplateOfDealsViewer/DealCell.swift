@@ -18,5 +18,21 @@ class DealCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        instrumentNameLabel.text = nil
+        priceLabel.text = nil
+        amountLabel.text = nil
+        sideLabel.text = nil
+    }
+    
+    func setDealCell(with deal: Deal) {
+        instrumentNameLabel.text = "\(deal.instrumentName)"
+        priceLabel.text = String(format: "%.2f", deal.price)
+        priceLabel.textColor = deal.side == .sell ? .red : .green
+        amountLabel.text = String(format: "%.0f",deal.amount)
+        sideLabel.text = "\(deal.side)"
+        sideLabel.textColor = deal.side == .sell ? .red : .green
+    }
 }
